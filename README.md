@@ -26,8 +26,8 @@ Create a news reader application that works efficiently even in poor network con
 #### 1. Offline Functionality
 - Implement local storage using either Hive or SQLite
 - Cache previously loaded articles
-- Allow reading saved articles without internet connection
-- Implement background sync when connection is restored
+- Allow reading saved articles without an internet connection
+- Implement background sync when the connection is restored
 
 #### 2. Network Handling
 - Implement retry mechanisms for failed requests
@@ -40,7 +40,7 @@ Create a news reader application that works efficiently even in poor network con
 - Implement image caching
 - Lazy loading for images
 - Optimize memory usage
-- Handle low memory scenarios
+- Handle low-memory scenarios
 
 #### 4. Architecture
 - Use clean architecture principles
@@ -122,4 +122,4 @@ Use the NewsAPI (https://newsapi.org/) for fetching articles.
 
 ## Support
 
-For any questions regarding the assessment, please contact [contact@makeit.com]
+For any questions regarding the assessment, please contact [vikash@makeit.sg]
